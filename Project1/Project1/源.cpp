@@ -7,14 +7,14 @@ vector<int>::iterator itt;
 
 void Initmatrix(vector<vector<int>>& matrix)
 {
-	int width,input;
-	cout << "ÇëÊäÈë¾ØÕó¿í¶È:" << endl;
-	cin >> width;
-	cout << "ÇëÊäÈë¾ØÕóÄÚÈÝ:" << endl;
-	for (int i = 0; i < width; i++)
+	int order,input;
+	cout << "please input the order of the matrix:" << endl;
+	cin >> order;
+	cout << "please input the number of the matrix:" << endl;
+	for (int i = 0; i < order; i++)
 	{
 		vector<int>v;
-		for (int j = 0; j < width; j++)
+		for (int j = 0; j < order; j++)
 		{
 			
 		
